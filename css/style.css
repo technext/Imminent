@@ -51,6 +51,10 @@ section { overflow: hidden; }
 
 /* =Typography
 -------------------------------------------------------------- */
+a {
+    text-decoration: none;
+}
+
 h1, h2 { margin: 0; }
 
 h1 {
