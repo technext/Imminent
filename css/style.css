@@ -85,13 +85,15 @@ h2 {
 
 #countdown div {
 	display:inline-block;
-    margin: 0 34px;
+	margin: 0 34px;
+	color: #6B5B95;
 }
 
 .sub-title {
 	font-size: 18px;
 	margin-top: 5px;
 	margin-bottom: 0px;
+	color: #6B5B95;
 }
 
 
@@ -165,6 +167,7 @@ h2 {
 	position: absolute;
 	z-index: 2;
 	top: 10%;
+	color: #6B5B95;
 }
 
 .line {
@@ -487,7 +490,10 @@ h2 {
 	h1 { font-size: 90px; line-height: 90px; }
 	.sub-title { font-size: 20px; line-height: 20px; margin-top: 10px; }
 	/* TITLE & CONTACT */
-	.title { top: 18%;}
+	.title {
+		top: 18%;
+		color: #6B5B95;
+	}
 	.line { margin-top: 20px; }
 	.contact { bottom: 10%; }
 	.contact .icons { margin-bottom: 12px; }
