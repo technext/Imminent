@@ -84,6 +84,7 @@ $(window).load(function(){
 		hours = 60 * 60,
 		minutes = 60;
 
+	var time = ['DAYS', 'HRS', 'MIN', 'SEC'];
 	// Creating the plugin
 	$.fn.countup = function (prop) {
 
@@ -96,10 +97,6 @@ $(window).load(function(){
 
 		// Initialize the plugin
 		init(this, options);
-
-		positions = this.find('.position');
-
-		var time = ['Days', 'Hours', 'Minutes', 'Seconds'];
 
 
 		(function tick() {
@@ -142,7 +139,7 @@ $(window).load(function(){
 	};
 
 	function init(elem, options) {
-		$.each(['Days', 'Hours', 'Minutes', 'Seconds'], function (i) {
+		$.each(time, function (i) {
 			$('<div id ="' + this + '">').html(
 				'<b></b><span>' + this + '</span>'
 			).appendTo(elem);
