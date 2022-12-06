@@ -1,1 +1,1 @@
-Coming Soon Template
+A animated coming Soon Template
